@@ -6,6 +6,11 @@ user_serialized = URI.open(url).read
 user = JSON.parse(user_serialized)
 movies = user['results']
 
+puts "Cleaning database..."
+Movie.destroy_all
+
+puts "Creating movies..."
+
 movies.each do |movie|
   movie = Movie.create(
     title: movie['title'],
