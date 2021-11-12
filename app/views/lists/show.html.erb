@@ -8,7 +8,7 @@
   <%= bookmark.movie.rating %>
   <%= bookmark.comment %>
   <%= link_to 'Remove',
-                list_path(@list),
+                bookmark_path(@list),
                 method: :delete,
                 data: { confirm: "Are you sure?" } %>
 <% end %>
