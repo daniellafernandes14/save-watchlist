@@ -17,7 +17,7 @@ movies.each do |movie|
     year: movie['release_date'],
     description: movie['overview'],
     rating: movie['vote_average'],
-    movie_image: "https://image.tmdb.org/t/p/w500#{movie['poster_url']}"
+    movie_image: "https://image.tmdb.org/t/p/w500#{movie['poster_path']}"
   )
   puts "#{movie.title} is in the DB!"
 end
