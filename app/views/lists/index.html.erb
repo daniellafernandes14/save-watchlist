@@ -1,4 +1,10 @@
 <h1>Welcome To Your Movie Lists</h1>
 <div class="movie-lists">
   <%= link_to 'Create List', new_list_path %>
+
+  <% @lists.each do |list| %>
+    <%= link_to list_path(list) do %>
+      <%= list.name %>
+    <% end %>
+  <% end %>
 </div>
