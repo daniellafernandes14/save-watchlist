@@ -8,6 +8,7 @@ movies = user['results']
 
 puts "Cleaning database..."
 Movie.destroy_all
+List.destroy_all
 
 puts "Creating movies..."
 
