@@ -25,7 +25,7 @@ comedy = List.create(
   photo_url: "https://www.watchmojo.com/uploads/blipthumbs/Fi-M-Top10-Comedy-Films-of-the-2010s-480p30.jpg"
 )
 sci_fi = List.create(
-  name: "Science Fiction",
+  name: "Sci-Fi",
   photo_url: "https://cdn.onebauer.media/one/media/5ece/bf26/1175/9fcb/d1d6/6dc5/main-2001.jpg?format=jpg&quality=80&width=440&ratio=16-9&resize=aspectfill"
 )
 war = List.create(
@@ -41,7 +41,7 @@ history = List.create(
   photo_url: "https://media.vogue.fr/photos/5fe271bb6c7c8589350baac8/master/pass/076_CHL_008908.jpg"
 )
 doc = List.create(
-  name: "Documentary",
+  name: "Docs",
   photo_url: "https://assets.vogue.com/photos/5a01e4ee8d94e07477278c3a/master/w_3000,h_1688,c_limit/05-best-documentaries.jpg"
 )
 thriller = List.create(

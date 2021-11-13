@@ -6,7 +6,8 @@
     <% @lists.each do |list| %>
       <div class="movie-list">
         <%= link_to list_path(list) do %>
-          <%= list.name %>
+          <p><%= list.name %></p>
+          <%= image_tag list.photo_url %>
         <% end %>
       </div>
     <% end %>
