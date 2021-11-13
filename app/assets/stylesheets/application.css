@@ -13,3 +13,6 @@
  *= require_tree .
  *= require_self
  */
+@import "./components/banner.scss";
+@import "./components/home.scss";
+@import "./components/list.scss";

@@ -1,0 +1,19 @@
+.banner {
+  text-align: center;
+  padding: 30px;
+}
+
+.banner a {
+  color: #9BA49E;
+  text-decoration: none !important;
+  border: 1px solid #9BA49E;
+  padding: 20px;
+  border-radius: 10px;
+  transition: background-color 1s, color 1s, border 1s;
+}
+
+.banner a:hover {
+  background-color: #9BA49E;
+  border: 1px solid black;
+  color: black;
+}
