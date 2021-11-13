@@ -1,7 +1,7 @@
-<div class="form-group">
+<div class="container">
   <%= simple_form_for(list) do |f| %>
-    <%= f.input :name %>
-    <%= f.input :photo_url %>
-    <%= f.submit %>
+    <%= f.input :name, :label_html => { :class => 'form-input' } %>
+    <%= f.input :photo_url, :label_html => { :class => 'form-input' } %>
+    <%= f.submit "Add List", :class => 'submit-button' %>
   <% end %>
 </div>

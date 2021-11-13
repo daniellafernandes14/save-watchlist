@@ -15,4 +15,5 @@
  */
 @import "./components/banner.scss";
 @import "./components/home.scss";
+@import "./components/form.scss";
 @import "./components/list.scss";

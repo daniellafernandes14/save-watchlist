@@ -1,0 +1,26 @@
+h1 {
+  text-align: center;
+  color: #9BA49E;
+}
+
+.form-input {
+  color: #9BA49E;
+}
+
+.submit-button {
+  color: #9BA49E;
+  text-align: center;
+  border: 1px solid #9BA49E;
+  padding: 20px;
+  border-radius: 10px;
+  transition: background-color 1s, color 1s, border 1s;
+  background-color: black;
+  display: block;
+  margin: 0 auto;
+}
+
+.submit-button:hover {
+  background-color: #9BA49E;
+  border: 1px solid black;
+  color: black;
+}
