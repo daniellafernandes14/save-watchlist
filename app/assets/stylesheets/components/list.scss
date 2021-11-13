@@ -1,6 +1,11 @@
+@media(min-width: 992px) {
+  .all-lists {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
 .all-lists {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
   column-gap: 10px;
   row-gap: 10px;
 }
